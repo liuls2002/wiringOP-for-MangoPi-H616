@@ -60,7 +60,7 @@ Mango Pi(h616) 与 Orange Pi Zero2 使用相同的soc（全志H616），所以�
 
 Mango Pi(h616) 引脚对应关系如下：
 
-<img src="C:\Users\29216\Desktop\wiringOP-master\wiringOP-MangoPi-H616\imgs\pins.png" alt="pins" style="zoom:50%;" />
+<img src=".\imgs\pins.png" alt="pins" style="zoom:60%;" />
 
 总共有3种编号：board引脚编号，芯片引脚编号，逻辑引脚编号。控制gpio时一般采用逻辑引脚编号。
 
@@ -295,4 +295,4 @@ int ORANGEPI_PIN_MASK[12][32] =  //[BANK]  [INDEX]
 
 执行`gpio readall`
 
-<img src="C:\Users\29216\Desktop\wiringOP-master\wiringOP-MangoPi-H616\imgs\readall.png" alt="readall" style="zoom:50%;" />
+<img src=".\imgs\readall.png" alt="readall" style="zoom:60%;" />
